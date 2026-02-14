@@ -44,14 +44,13 @@ WhatsApp
 <div class="pt-24"></div>
 
 <!-- ================= HERO ================= -->
-<section class="text-center py-20 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6">
 
 <h2 class="text-3xl md:text-5xl font-bold mb-6">
-Professional Digital Services That Help You Grow
+Get Your Professional Website in Just 3 Days
 </h2>
 
 <p class="max-w-2xl mx-auto mb-8 text-lg">
-Website Development | Graphic Design | Resume Design | Social Media Creatives
+Affordable websites, resume design & social media creatives for students and small businesses.
 </p>
 
 <a href="https://wa.me/91XXXXXXXXXX"
@@ -102,6 +101,40 @@ Order Now
 
 </div>
 </section>
+<section class="py-20 px-6 bg-gray-100 text-center">
+
+<h2 class="text-3xl font-bold mb-12">
+Pricing Plans
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-4">Basic</h3>
+<p class="text-2xl font-bold mb-6">₹1499</p>
+<p>1 Page Website</p>
+<p>Mobile Responsive</p>
+<p>WhatsApp Integration</p>
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-4">Standard</h3>
+<p class="text-2xl font-bold mb-6">₹2999</p>
+<p>3-4 Pages</p>
+<p>Contact Form</p>
+<p>Basic SEO</p>
+</div>
+
+<div class="bg-white p-8 rounded-xl shadow">
+<h3 class="text-xl font-bold mb-4">Premium</h3>
+<p class="text-2xl font-bold mb-6">₹4999</p>
+<p>Full Website</p>
+<p>Payment Integration</p>
+<p>Advanced SEO</p>
+</div>
+
+</div>
+</section>
 
 <!-- ================= PORTFOLIO ================= -->
 <section id="portfolio" class="py-20 px-6 text-center">
@@ -124,6 +157,33 @@ class="rounded-lg shadow">
 </div>
 
 </section>
+
+<section class="py-20 px-6 text-center">
+
+<h2 class="text-3xl font-bold mb-12">
+Why Choose Us?
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+<div>
+<h3 class="font-bold mb-4">Fast Delivery</h3>
+<p>Website in 2-3 days.</p>
+</div>
+
+<div>
+<h3 class="font-bold mb-4">Affordable Price</h3>
+<p>Budget friendly for students.</p>
+</div>
+
+<div>
+<h3 class="font-bold mb-4">Support</h3>
+<p>Free support after delivery.</p>
+</div>
+
+</div>
+</section>
+
 <!-- ================= TESTIMONIALS ================= -->
 <section class="bg-blue-600 text-white py-20 px-6 text-center">
 
