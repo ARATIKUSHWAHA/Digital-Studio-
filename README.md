@@ -24,7 +24,7 @@ scroll-behavior:smooth;
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
 <h1 class="text-xl font-bold text-blue-600">
-Arati Digital Studio
+Aarati Digital Studio
 </h1>
 
 <div class="hidden md:flex space-x-6 font-medium">
