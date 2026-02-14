@@ -24,7 +24,7 @@ scroll-behavior:smooth;
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
 <h1 class="text-xl font-bold text-blue-600">
-Aarati Digital Studio
+Arati Digital Studio
 </h1>
 
 <div class="hidden md:flex space-x-6 font-medium">
@@ -33,7 +33,7 @@ Aarati Digital Studio
 <a href="#contact" class="hover:text-blue-600">Contact</a>
 </div>
 
-<a href="https://wa.me/91XXXXXXXXXX"
+<a href="https://wa.me/916393837129"
 class="bg-green-500 text-white px-4 py-2 rounded-lg">
 WhatsApp
 </a>
@@ -127,7 +127,7 @@ Let's Work Together
 Have a project in mind? Let's discuss your idea today.
 </p>
 
-<a href="https://wa.me/91XXXXXXXXXX"
+<a href="https://wa.me/916393837129"
 class="bg-green-500 text-white px-8 py-3 rounded-lg font-bold">
 Chat on WhatsApp
 </a>
