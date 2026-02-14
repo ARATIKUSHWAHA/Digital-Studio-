@@ -29,12 +29,12 @@ Aarati Digital Studio
 
 <div class="hidden md:flex space-x-6 font-medium">
 <a href="#services" class="hover:text-blue-600">Services</a>
-<a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
+<a href="#pricing" class="hover:text-blue-600">Pricing</a>
 <a href="#contact" class="hover:text-blue-600">Contact</a>
 </div>
 
-<a href="https://wa.me/91"
-class="bg-green-500 text-white px-4 py-2 rounded-lg">
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
+class="bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600">
 WhatsApp
 </a>
 
@@ -44,6 +44,7 @@ WhatsApp
 <div class="pt-24"></div>
 
 <!-- ================= HERO ================= -->
+<section class="text-center py-20 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
 
 <h2 class="text-3xl md:text-5xl font-bold mb-6">
 Get Your Professional Website in Just 3 Days
@@ -53,8 +54,8 @@ Get Your Professional Website in Just 3 Days
 Affordable websites, resume design & social media creatives for students and small businesses.
 </p>
 
-<a href="https://wa.me/91XXXXXXXXXX"
-class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold">
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
+class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold shadow hover:bg-gray-200">
 Get Free Consultation
 </a>
 
@@ -69,31 +70,31 @@ Our Services
 
 <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
 
-<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition">
 <h3 class="text-xl font-bold mb-4">Website Development</h3>
 <p class="mb-4">Modern responsive websites for students & businesses.</p>
 <p class="font-bold mb-6">Starting ₹1499</p>
-<a href="https://wa.me/91XXXXXXXXXX"
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
 class="bg-blue-600 text-white px-4 py-2 rounded">
 Order Now
 </a>
 </div>
 
-<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition">
 <h3 class="text-xl font-bold mb-4">Graphic Design</h3>
 <p class="mb-4">Creative Instagram posts, thumbnails & posters.</p>
 <p class="font-bold mb-6">Starting ₹149</p>
-<a href="https://wa.me/91XXXXXXXXXX"
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
 class="bg-blue-600 text-white px-4 py-2 rounded">
 Order Now
 </a>
 </div>
 
-<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition">
 <h3 class="text-xl font-bold mb-4">Resume Design</h3>
 <p class="mb-4">ATS-friendly resume for jobs & internships.</p>
 <p class="font-bold mb-6">Starting ₹299</p>
-<a href="https://wa.me/91XXXXXXXXXX"
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
 class="bg-blue-600 text-white px-4 py-2 rounded">
 Order Now
 </a>
@@ -101,7 +102,9 @@ Order Now
 
 </div>
 </section>
-<section class="py-20 px-6 bg-gray-100 text-center">
+
+<!-- ================= PRICING ================= -->
+<section id="pricing" class="py-20 px-6 bg-gray-100 text-center">
 
 <h2 class="text-3xl font-bold mb-12">
 Pricing Plans
@@ -117,7 +120,7 @@ Pricing Plans
 <p>WhatsApp Integration</p>
 </div>
 
-<div class="bg-white p-8 rounded-xl shadow">
+<div class="bg-white p-8 rounded-xl shadow border-2 border-blue-600">
 <h3 class="text-xl font-bold mb-4">Standard</h3>
 <p class="text-2xl font-bold mb-6">₹2999</p>
 <p>3-4 Pages</p>
@@ -136,117 +139,37 @@ Pricing Plans
 </div>
 </section>
 
-<!-- ================= PORTFOLIO ================= -->
-<section id="portfolio" class="py-20 px-6 text-center">
-
-<h2 class="text-3xl font-bold mb-12">
-Our Work
-</h2>
-
-<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-
-<img src="https://via.placeholder.com/400"
-class="rounded-lg shadow">
-
-<img src="https://via.placeholder.com/400"
-class="rounded-lg shadow">
-
-<img src="https://via.placeholder.com/400"
-class="rounded-lg shadow">
-
-</div>
-
-</section>
-
-<section class="py-20 px-6 text-center">
-
-<h2 class="text-3xl font-bold mb-12">
-Why Choose Us?
-</h2>
-
-<div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
-<div>
-<h3 class="font-bold mb-4">Fast Delivery</h3>
-<p>Website in 2-3 days.</p>
-</div>
-
-<div>
-<h3 class="font-bold mb-4">Affordable Price</h3>
-<p>Budget friendly for students.</p>
-</div>
-
-<div>
-<h3 class="font-bold mb-4">Support</h3>
-<p>Free support after delivery.</p>
-</div>
-
-</div>
-</section>
-
-<!-- ================= TESTIMONIALS ================= -->
-<section class="bg-blue-600 text-white py-20 px-6 text-center">
-
-<h2 class="text-3xl font-bold mb-12">
-What Clients Say
-</h2>
-
-<div class="max-w-3xl mx-auto">
-
-<p class="mb-6 italic">
-"Very professional work and fast delivery. Highly recommended!"
-</p>
-<p class="font-bold">- Happy Client</p>
-
-</div>
-
-</section>
-
 <!-- ================= CONTACT ================= -->
-<section id="contact" class="py-20 px-6 bg-gray-100">
+<section id="contact" class="py-20 px-6 text-center">
 
-<h2 class="text-3xl font-bold text-center mb-12">
+<h2 class="text-3xl font-bold mb-12">
 Contact Us
 </h2>
 
-<div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow">
-
-<form>
-<div class="grid md:grid-cols-2 gap-6">
+<div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow">
 
 <input type="text" placeholder="Your Name"
-class="border p-3 rounded w-full" required>
+class="w-full mb-4 p-3 border rounded">
 
 <input type="email" placeholder="Your Email"
-class="border p-3 rounded w-full" required>
-
-</div>
+class="w-full mb-4 p-3 border rounded">
 
 <textarea placeholder="Your Project Details"
-class="border p-3 rounded w-full mt-6 h-32" required></textarea>
+class="w-full mb-4 p-3 border rounded h-32"></textarea>
 
-<button type="submit"
-class="bg-blue-600 text-white px-6 py-3 rounded mt-6 w-full">
-Send Message
-</button>
-
-</form>
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
+class="bg-blue-600 text-white px-6 py-3 rounded inline-block">
+Send via WhatsApp
+</a>
 
 </div>
 </section>
 
-
 <!-- ================= FOOTER ================= -->
-<footer class="bg-gray-800 text-white text-center p-6">
+<footer class="bg-gray-900 text-white text-center py-6">
 <p>© 2026 Aarati Digital Studio</p>
-<p>Email: yourmail@gmail.com</p>
+<p>Email: aaratidigitalstudio@gmail.com</p>
 </footer>
-
-<!-- ================= FLOATING WHATSAPP ================= -->
-<a href="https://wa.me/91XXXXXXXXXX"
-class="fixed bottom-6 right-6 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg">
-WhatsApp
-</a>
 
 </body>
 </html>
