@@ -104,35 +104,77 @@ Order Now
 </section>
 
 <!-- ================= PORTFOLIO ================= -->
-<section id="portfolio" class="bg-gray-100 py-20 px-6 text-center">
+<section id="portfolio" class="py-20 px-6 text-center">
 
 <h2 class="text-3xl font-bold mb-12">
 Our Work
 </h2>
 
-<p class="max-w-2xl mx-auto">
-Portfolio images and project screenshots will be added here.
+<div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+
+<img src="https://via.placeholder.com/400"
+class="rounded-lg shadow">
+
+<img src="https://via.placeholder.com/400"
+class="rounded-lg shadow">
+
+<img src="https://via.placeholder.com/400"
+class="rounded-lg shadow">
+
+</div>
+
+</section>
+<!-- ================= TESTIMONIALS ================= -->
+<section class="bg-blue-600 text-white py-20 px-6 text-center">
+
+<h2 class="text-3xl font-bold mb-12">
+What Clients Say
+</h2>
+
+<div class="max-w-3xl mx-auto">
+
+<p class="mb-6 italic">
+"Very professional work and fast delivery. Highly recommended!"
 </p>
+<p class="font-bold">- Happy Client</p>
+
+</div>
 
 </section>
 
 <!-- ================= CONTACT ================= -->
-<section id="contact" class="py-20 px-6 text-center">
+<section id="contact" class="py-20 px-6 bg-gray-100">
 
-<h2 class="text-3xl font-bold mb-6">
-Let's Work Together
+<h2 class="text-3xl font-bold text-center mb-12">
+Contact Us
 </h2>
 
-<p class="mb-8">
-Have a project in mind? Let's discuss your idea today.
-</p>
+<div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow">
 
-<a href="https://wa.me/916393837129"
-class="bg-green-500 text-white px-8 py-3 rounded-lg font-bold">
-Chat on WhatsApp
-</a>
+<form>
+<div class="grid md:grid-cols-2 gap-6">
 
+<input type="text" placeholder="Your Name"
+class="border p-3 rounded w-full" required>
+
+<input type="email" placeholder="Your Email"
+class="border p-3 rounded w-full" required>
+
+</div>
+
+<textarea placeholder="Your Project Details"
+class="border p-3 rounded w-full mt-6 h-32" required></textarea>
+
+<button type="submit"
+class="bg-blue-600 text-white px-6 py-3 rounded mt-6 w-full">
+Send Message
+</button>
+
+</form>
+
+</div>
 </section>
+
 
 <!-- ================= FOOTER ================= -->
 <footer class="bg-gray-800 text-white text-center p-6">
