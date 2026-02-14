@@ -163,12 +163,42 @@ Pricing Plans
 Contact Us
 </h2>
 
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-blue-600 text-white px-6 py-3 rounded shadow">
-Chat on WhatsApp
-</a>
+<div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow">
 
+<input id="name" type="text" placeholder="Your Name"
+class="w-full mb-4 p-3 border rounded">
+
+<input id="email" type="email" placeholder="Your Email"
+class="w-full mb-4 p-3 border rounded">
+
+<textarea id="details" placeholder="Your Project Details"
+class="w-full mb-4 p-3 border rounded h-32"></textarea>
+
+<button onclick="sendToWhatsApp()"
+class="bg-blue-600 text-white px-6 py-3 rounded shadow">
+Send via WhatsApp
+</button>
+
+</div>
 </section>
+
+<script>
+function sendToWhatsApp(){
+
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var details = document.getElementById("details").value;
+
+var message = "New Client Inquiry:%0A%0A"
++ "Name: " + name + "%0A"
++ "Email: " + email + "%0A"
++ "Project Details: " + details;
+
+var phone = "916393837129";
+
+window.open("https://wa.me/" + phone + "?text=" + message, "_blank");
+}
+</script>
 
 <!-- FOOTER -->
 <footer class="bg-gray-900 text-white text-center py-6">
