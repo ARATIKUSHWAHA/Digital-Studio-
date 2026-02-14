@@ -4,9 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aarati Digital Studio | Website & Design Services</title>
+<title>Aarati Digital Studio | Website Development & Design Services</title>
 
-<meta name="description" content="Affordable website development, graphic design, resume design and digital services for students and small businesses.">
+<meta name="description" content="Affordable website development, graphic design, resume design and social media creatives for students and small businesses in India.">
+<meta name="keywords" content="website development, graphic design, resume design, social media design, affordable website india">
+<meta name="author" content="Aarati Digital Studio">
+
+<meta property="og:title" content="Aarati Digital Studio">
+<meta property="og:description" content="Professional websites & creative design services.">
+<meta property="og:type" content="website">
 
 <script src="https://cdn.tailwindcss.com"></script>
 
@@ -14,12 +20,24 @@
 html{
 scroll-behavior:smooth;
 }
+
+.fade-in{
+opacity:0;
+transform:translateY(20px);
+transition:all 0.8s ease;
+}
+
+.fade-in.show{
+opacity:1;
+transform:translateY(0);
+}
 </style>
+
 </head>
 
 <body class="bg-gray-50 text-gray-800">
 
-<!-- ================= NAVBAR ================= -->
+<!-- NAVBAR -->
 <nav class="bg-white shadow-md fixed w-full z-50">
 <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
@@ -30,21 +48,17 @@ Aarati Digital Studio
 <div class="hidden md:flex space-x-6 font-medium">
 <a href="#services" class="hover:text-blue-600">Services</a>
 <a href="#pricing" class="hover:text-blue-600">Pricing</a>
+<a href="#portfolio" class="hover:text-blue-600">Portfolio</a>
 <a href="#contact" class="hover:text-blue-600">Contact</a>
 </div>
-
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-green-500 text-white px-4 py-2 rounded-lg shadow hover:bg-green-600">
-WhatsApp
-</a>
 
 </div>
 </nav>
 
 <div class="pt-24"></div>
 
-<!-- ================= HERO ================= -->
-<section class="text-center py-20 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+<!-- HERO -->
+<section class="text-center py-20 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 text-white fade-in">
 
 <h2 class="text-3xl md:text-5xl font-bold mb-6">
 Get Your Professional Website in Just 3 Days
@@ -61,8 +75,8 @@ Get Free Consultation
 
 </section>
 
-<!-- ================= SERVICES ================= -->
-<section id="services" class="py-20 px-6">
+<!-- SERVICES -->
+<section id="services" class="py-20 px-6 fade-in">
 
 <h2 class="text-3xl font-bold text-center mb-12">
 Our Services
@@ -74,37 +88,43 @@ Our Services
 <h3 class="text-xl font-bold mb-4">Website Development</h3>
 <p class="mb-4">Modern responsive websites for students & businesses.</p>
 <p class="font-bold mb-6">Starting ₹1499</p>
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-blue-600 text-white px-4 py-2 rounded">
-Order Now
-</a>
 </div>
 
 <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition">
 <h3 class="text-xl font-bold mb-4">Graphic Design</h3>
-<p class="mb-4">Creative Instagram posts, thumbnails & posters.</p>
+<p class="mb-4">Instagram posts, thumbnails & posters.</p>
 <p class="font-bold mb-6">Starting ₹149</p>
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-blue-600 text-white px-4 py-2 rounded">
-Order Now
-</a>
 </div>
 
 <div class="bg-white p-8 rounded-xl shadow hover:shadow-xl transition">
 <h3 class="text-xl font-bold mb-4">Resume Design</h3>
-<p class="mb-4">ATS-friendly resume for jobs & internships.</p>
+<p class="mb-4">ATS-friendly resume design.</p>
 <p class="font-bold mb-6">Starting ₹299</p>
-<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-blue-600 text-white px-4 py-2 rounded">
-Order Now
-</a>
 </div>
 
 </div>
 </section>
 
-<!-- ================= PRICING ================= -->
-<section id="pricing" class="py-20 px-6 bg-gray-100 text-center">
+<!-- PORTFOLIO -->
+<section id="portfolio" class="py-20 px-6 bg-gray-100 fade-in">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Our Work
+</h2>
+
+<div class="flex space-x-6 overflow-x-auto max-w-6xl mx-auto">
+
+<img src="https://via.placeholder.com/300x200" class="rounded-lg shadow-lg">
+<img src="https://via.placeholder.com/300x200" class="rounded-lg shadow-lg">
+<img src="https://via.placeholder.com/300x200" class="rounded-lg shadow-lg">
+<img src="https://via.placeholder.com/300x200" class="rounded-lg shadow-lg">
+
+</div>
+
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="py-20 px-6 text-center fade-in">
 
 <h2 class="text-3xl font-bold mb-12">
 Pricing Plans
@@ -117,14 +137,12 @@ Pricing Plans
 <p class="text-2xl font-bold mb-6">₹1499</p>
 <p>1 Page Website</p>
 <p>Mobile Responsive</p>
-<p>WhatsApp Integration</p>
 </div>
 
 <div class="bg-white p-8 rounded-xl shadow border-2 border-blue-600">
 <h3 class="text-xl font-bold mb-4">Standard</h3>
 <p class="text-2xl font-bold mb-6">₹2999</p>
 <p>3-4 Pages</p>
-<p>Contact Form</p>
 <p>Basic SEO</p>
 </div>
 
@@ -132,44 +150,50 @@ Pricing Plans
 <h3 class="text-xl font-bold mb-4">Premium</h3>
 <p class="text-2xl font-bold mb-6">₹4999</p>
 <p>Full Website</p>
-<p>Payment Integration</p>
 <p>Advanced SEO</p>
 </div>
 
 </div>
 </section>
 
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="py-20 px-6 text-center">
+<!-- CONTACT -->
+<section id="contact" class="py-20 px-6 text-center fade-in">
 
 <h2 class="text-3xl font-bold mb-12">
 Contact Us
 </h2>
 
-<div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow">
-
-<input type="text" placeholder="Your Name"
-class="w-full mb-4 p-3 border rounded">
-
-<input type="email" placeholder="Your Email"
-class="w-full mb-4 p-3 border rounded">
-
-<textarea placeholder="Your Project Details"
-class="w-full mb-4 p-3 border rounded h-32"></textarea>
-
 <a href="https://wa.me/91XXXXXXXXXX" target="_blank"
-class="bg-blue-600 text-white px-6 py-3 rounded inline-block">
-Send via WhatsApp
+class="bg-blue-600 text-white px-6 py-3 rounded shadow">
+Chat on WhatsApp
 </a>
 
-</div>
 </section>
 
-<!-- ================= FOOTER ================= -->
+<!-- FOOTER -->
 <footer class="bg-gray-900 text-white text-center py-6">
 <p>© 2026 Aarati Digital Studio</p>
 <p>Email: aaratidigitalstudio@gmail.com</p>
 </footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank"
+class="fixed bottom-6 right-6 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:bg-green-600">
+WhatsApp
+</a>
+
+<script>
+const faders = document.querySelectorAll(".fade-in");
+
+window.addEventListener("scroll", () => {
+faders.forEach(el => {
+const rect = el.getBoundingClientRect();
+if(rect.top < window.innerHeight - 100){
+el.classList.add("show");
+}
+});
+});
+</script>
 
 </body>
 </html>
