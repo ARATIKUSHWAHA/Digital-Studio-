@@ -33,7 +33,7 @@ Arati Digital Studio
 <a href="#contact" class="hover:text-blue-600">Contact</a>
 </div>
 
-<a href="https://wa.me/916393837129"
+<a href="https://wa.me/91"
 class="bg-green-500 text-white px-4 py-2 rounded-lg">
 WhatsApp
 </a>
